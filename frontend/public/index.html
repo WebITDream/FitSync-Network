@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+</head>
+<body class="bg-slate-950">
+  <div class="h-screen flex flex-col lg:flex-row animate__animated animate__fadeIn" style="margin-left: 5.5%">
+    <div class="lg:w-1/2 flex flex-col justify-center items-center lg:items-start pl-8 text-white">
+      <h1 class="text-4xl lg:text-6xl text-white font-bold mb-4">
+        Unlock Your Full Fitness Potential <br>with FitSync Network
+      </h1>
+      <h2 class="text-white text-lg max-w-md">
+        Join a Community of Fitness Enthusiasts and Achieve Your Goals Together
+      </h2>
+      <button class="button-64 w-1/2 mt-8 sm:w-1/4" role="button"><span class="text">Find out more</span></button>
+    </div>
+    <img class="rounded-full lg:h-[85%] lg:self-center mt-8 lg:mt-0 border-4 border-slate-400" src="assets/gym.jpg">
+  </div>  
+  <div class="flex flex-grow justify-center items-center p-8">
+    <div class="flex flex-col items-center lg:w-1/3 bg-gray-800 text-white p-8 rounded-lg border-2 border-slate-600">
+      <h1 class="text-5xl font-semibold mb-4 text-center">Why Join FitSync-Network?</h1>
+      <ul class="list-disc pl-4" id="reasonsList">
+        <li class="mb-4 flex items-center">
+          <div class="bg-blue-500 text-white rounded-full p-2 inline-block mr-2">
+            <span class="text-2xl" id="emoji">🏋️‍♂️</span>
+          </div>
+          <p id="reasonText" class="text-2xl font-semibold">Access to state-of-the-art fitness facilities</p>
+        </li>
+      </ul>
+  
+      <div class="flex justify-around mt-8">
+        <div class="flex flex-col items-center lg:w-1/3 bg-gray-800 text-white p-8 rounded-lg border-2 border-slate-600 mx-4">
+          <div class="bg-blue-500 text-white rounded-full p-2 inline-block mb-4">
+            <span class="text-2xl">🎯</span>
+          </div>
+          <p class="text-2xl font-semibold">Personalized fitness plans to meet your goals</p>
+        </div>
+        
+        <div class="flex flex-col items-center lg:w-1/3 bg-gray-800 text-white p-8 rounded-lg border-2 border-slate-600 mx-4">
+          <div class="bg-blue-500 text-white rounded-full p-2 inline-block mb-4">
+            <span class="text-2xl">🤝</span>
+          </div>
+          <p class="text-2xl font-semibold">Connect with a community of like-minded fitness enthusiasts</p>
+        </div>
+      </div>
+  
+      <div class="flex justify-around mt-8">
+        <div class="flex flex-col items-center lg:w-1/3 bg-gray-800 text-white p-8 rounded-lg border-2 border-slate-600 mx-4">
+          <div class="bg-blue-500 text-white rounded-full p-2 inline-block mb-4">
+            <span class="text-2xl">🌟</span>
+          </div>
+          <p class="text-2xl font-semibold">Access to exclusive fitness events and workshops</p>
+        </div>
+        
+        <div class="flex flex-col items-center lg:w-1/3 bg-gray-800 text-white p-8 rounded-lg border-2 border-slate-600 mx-4">
+          <div class="bg-blue-500 text-white rounded-full p-2 inline-block mb-4">
+            <span class="text-2xl">💪</span>
+          </div>
+          <p class="text-2xl font-semibold">Expert trainers to guide and support your fitness journey</p>
+        </div>
+      </div>
+      <button class="button-64 w-1/2 mt-8 sm:w-1/4" role="button" style="width: 50%;"><span class="text">Join Us</span></button>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center h-screen">
+    <h1 class="mb-6 text-5xl font-bold text-center text-white">FitSync-Network Plans</h1>
+    <div class="flex flex-col md:flex-row items-center justify-center">
+      <div class="bg-gray-800 p-[20%] rounded-xl flex border-2 border-slate-600">
+        <div class="w-64 p-4 bg-gray-800 shadow-lg rounded-2xl border-2">
+          <div class="flex items-center justify-between text-white">
+              <p class="mb-4 text-4xl font-medium">
+                  Standard
+              </p>
+              <p class="flex flex-col text-3xl font-bold">
+                  $2
+                  <span class="text-sm font-thin text-right">
+                      month
+                  </span>
+              </p>
+          </div>
+          <p class="mt-4 text-white text-md">
+              Plan include:
+          </p>
+          <ul class="w-full mt-6 mb-6 text-sm text-white">
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  All illimited components
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Own custom Tailwind styles
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Unlimited Templates
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Free premium dashboard
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Best ranking
+              </li>
+              <li class="mb-3 flex items-center opacity-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Prenium svg
+              </li>
+              <li class="mb-3 flex items-center opacity-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  My wife
+              </li>
+          </ul>
+          <button type="button" class="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 ">
+              Choose plan
+          </button>
+        </div>
+        <div class="w-64 ml-8 p-4 bg-indigo-500 shadow-lg rounded-2xl border-4 border-amber-600 element">
+          <div class="flex items-center justify-between text-white">
+              <p class="mb-4 text-4xl font-medium">
+                  Pro
+              </p>
+              <p class="flex flex-col text-3xl font-bold">
+                  $5
+                  <span class="text-sm font-thin text-right">
+                      month
+                  </span>
+              </p>
+          </div>
+          <p class="mt-4 text-white text-md">
+              Plan include:
+          </p>
+          <ul class="w-full mt-6 mb-6 text-sm text-white">
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  All illimited components
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Own custom Tailwind styles
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Unlimited Templates
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Free premium dashboard
+              </li>
+              <li class="mb-3 flex items-center ">
+                  <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Best ranking
+              </li>
+              <li class="mb-3 flex items-center opacity-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  Prenium svg
+              </li>
+              <li class="mb-3 flex items-center opacity-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="white" viewBox="0 0 1792 1792">
+                      <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                  </svg>
+                  My wife
+              </li>
+          </ul>
+          <button type="button" class="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 ">
+              Choose plan
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
+  
+
+  <script>
+    var reasons = [
+      {
+        "emoji": "🏋️‍♂️",
+        "reason": "Access to state-of-the-art fitness facilities"
+      },
+      {
+        "emoji": "💪",
+        "reason": "Wide range of fitness classes for all levels"
+      },
+      {
+        "emoji": "👥",
+        "reason": "Engaging community of like-minded fitness enthusiasts"
+      },
+      {
+        "emoji": "🏅",
+        "reason": "Expert trainers with personalized training plans"
+      }
+    ];
+
+    var emoji = document.getElementById("emoji");
+    var reasonText = document.getElementById("reasonText");
+
+    var i = 0;
+    setInterval(function() {
+      // Set opacity to 0 for fading effect
+      emoji.style.opacity = 0;
+      reasonText.style.opacity = 0;
+
+      setTimeout(function() {
+        emoji.innerHTML = reasons[i].emoji;
+        reasonText.innerHTML = reasons[i].reason;
+
+        // Set opacity back to 1 after content change
+        emoji.style.opacity = 1;
+        reasonText.style.opacity = 1;
+
+        i++;
+        if (i == reasons.length) {
+          i = 0;
+        }
+      }, 500); // Wait for 500ms before changing content
+    }, 3000);
+  </script>
+</body>
+</html>
