@@ -10,13 +10,13 @@ const HeaderContainer = () => {
         <h2 className="text-white text-lg max-w-md">
           Join a Community of Fitness Enthusiasts and Achieve Your Goals Together
         </h2>
-        <a style={{ textDecoration: 'none', color: 'white' }} className="mt-8" href="#why">
+        <a style={{ textDecoration: 'none', color: 'white' }} className="mt-8" href="#aboutus">
           <button className="button-64 w-96" role="button">
             <span className="text">Find out more</span>
           </button>
         </a>
       </div>
-      <img className="rounded-full lg:h-[85%] lg:self-center mt-8 lg:mt-0 border-4 border-slate-400" src="assets/gym.jpg" alt="Fitness Gym" />
+      <img className="rounded-full lg:h-[85%] lg:self-center mt-8 lg:mt-0 border-4 border-slate-400 element" src="assets/gym.jpg" alt="Fitness Gym" />
     </div>
   );
 };
