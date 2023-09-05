@@ -1,6 +1,24 @@
 import React from 'react';
+import axios from 'axios';
 
 const PlansContainer = () => {
+
+    const sendToBackend = async (plan) => {
+        try {
+          const jsonData = { plan: plan };
+          const response = await axios.post('http://localhost:9000/getPlan', jsonData);
+            
+
+          if (response.data && response.data.url) {
+            window.location.href = response.data.url;
+          }
+          
+        } catch (error) {
+          console.error('Error sending data to backend:', error);
+        }
+      };
+
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-center mt-[5%]" id="plans">
        <div className="bg-gray-800 pl-[6%] pr-[6%] pb-[3%] rounded-xl border-2 border-slate-600">
@@ -72,7 +90,7 @@ const PlansContainer = () => {
                     My wife
                     </li>
                 </ul>
-                <button type="button" className="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 ">
+                <button type="button" className="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 " onClick={() => sendToBackend( {type: 'standard', price: 'price_1Nn4D6KnrknTLIkFzjNRnd5w'} )}>
                     Choose plan
                 </button>
             </div>
@@ -142,8 +160,8 @@ const PlansContainer = () => {
                 My wife
                 </li>
             </ul>
-            <button type="button" className="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 ">
-                Choose plan
+            <button type="button" className="w-full px-3 py-3 text-sm text-indigo-500 bg-white rounded-lg shadow hover:bg-gray-200 " onClick={() => sendToBackend( {type: 'pro', price: 'price_1Nn4FsKnrknTLIkFkT8e1ilB'} )}>
+                    Choose plan
             </button>
             </div>
         </div>
