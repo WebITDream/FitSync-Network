@@ -1,5 +1,5 @@
 var express = require("express");
-var stripe = require('stripe')('sk_test_51JSWlcKnrknTLIkFvif0l5coiUJGAeeZz8DsaXuH7rgaaO4bhjbRIZCd5K6OHFELrQjdh7tuWDAI00yjbHlB6IXL00kapnnJE9')
+var stripe = require('stripe')('PRIVATE)
 var router = express.Router();
 
 let plan = null
